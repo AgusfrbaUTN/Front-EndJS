@@ -1,0 +1,70 @@
+
+/* PASO A: Ponemos el GIF de fondo en toda la página */
+body {
+    background-image: url('Imagenes/FondoBienvenida.gif'); 
+    background-size: cover;            
+    background-position: center;   
+    background-repeat: no-repeat;   
+    background-attachment: fixed;      
+    margin: 0;
+    font-family: 'Press Start 2P', cursive;;
+}
+
+
+h1 {
+    text-align: center;   
+    font-size: 5rem;       
+    margin-top: 150px;      
+    color: #FFDE00;
+    text-shadow: 
+        -2px -2px 0 #000,  
+         2px -2px 0 #000,
+        -2px  2px 0 #000,
+         2px  2px 0 #000; 
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: rgba(20, 25, 40, 0.9); 
+    padding: 15px 30px;
+    border-bottom: 3px solid #000; 
+    
+
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+    box-sizing: border-box; 
+    z-index: 1000; 
+}
+
+
+.logo {
+    color: #FFDE00; 
+    font-size: 1.2rem;
+    font-weight: bold;
+    -webkit-text-stroke: 1px #000;
+}
+
+
+.menu-links a {
+    color: #FFFFFF;
+    text-decoration: none; 
+    margin-left: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: color 0.2s ease;
+}
+
+
+.menu-links a:hover,
+.menu-links a.active {
+    color: red; 
+}
+
+
+main {
+    padding-top: 70px; 
+}
