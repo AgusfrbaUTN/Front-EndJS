@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Página web de práctica</title>
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+
+    <header>
+        <h1>GuiaPokemon</h1> 
+    </header>
+    
+    <main>
+        <section>
+            <h2>Este párrafo explica cómo funciona la etiqueta "h" y "p"</h2>
+            
+            <div class="amigothomi">
+                <p>Para qué sirven "h1": Son los títulos y subtítulos de tu página. Van en una escala de importancia: el "h1" es el título principal y más importante de la página (¡solo debe haber uno por página idealmente!), el "h2" es un subtítulo, el "h3" es un sub-subtítulo, y así hasta el "h6". Cómo se ven: Por defecto, los navegadores los muestran más grandes y en negrita para que resalten a simple vista.</p> 
+                
+                <p>Para qué sirven "p": Son para escribir bloques de texto normal, como explicaciones, historias, descripciones o párrafos de contenido común y corriente. Cómo se ven: Se muestran con un tamaño de letra estándar, sin negritas automáticas y con un pequeño espacio arriba y abajo para separarlos de otros elementos.</p>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
