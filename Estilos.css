@@ -1,27 +1,114 @@
 
-/* PASO A: Ponemos el GIF de fondo en toda la página */
 body {
-    background-image: url('Imagenes/FondoBienvenida.gif'); 
-    background-size: cover;            
-    background-position: center;   
+    background-image: url('Imagenes/pikachu.gif'); 
+    background-size: 100% 100%;            
+    background-position: center bottom;   
     background-repeat: no-repeat;   
     background-attachment: fixed;      
     margin: 0;
     font-family: 'Press Start 2P', cursive;;
 }
 
+body.pokedex-page {
+    background-image: url('Imagenes/descargar.gif'); 
+}
+
+body.Canciones-page {
+    background-image: url('Imagenes/descargar.gif'); 
+}
+body.Roms-page {
+    background-image: url('Imagenes/descargar.gif'); 
+}
+body.Contacto-page {
+    background-image: url('Imagenes/descargar.gif'); 
+}
+
+
+
+
+/* Textos principales de cada pagina y subpagina*/
+
 
 h1 {
     text-align: center;   
+    font-size: 8rem;       
+    margin-top: 150px;      
+    color: #f5d033;
+    text-shadow: 
+        -2px -2px 0 blue,  
+         2px -2px 0  blue,
+        -2px  2px 0 blue,
+         2px  2px 0 blue; 
+}
+
+h2 {
+ font-size: 3rem;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-text-stroke: 2px #000;
+  
+}
+
+body.pokedex-page h1 {
+    text-align: center;   
     font-size: 5rem;       
     margin-top: 150px;      
-    color: #FFDE00;
+    color: black;
     text-shadow: 
-        -2px -2px 0 #000,  
-         2px -2px 0 #000,
-        -2px  2px 0 #000,
-         2px  2px 0 #000; 
+        -2px -2px 0 gray,  
+         2px -2px 0  gray,
+        -2px  2px 0 gray,
+         2px  2px 0 gray; 
 }
+
+body.canciones-page h1 {
+    text-align: center;   
+    font-size: 5rem;       
+    margin-top: 150px;      
+    color: black;
+    text-shadow: 
+        -2px -2px 0 gray,  
+         2px -2px 0  gray,
+        -2px  2px 0 gray,
+         2px  2px 0 gray; 
+}
+
+body.Roms-page h1 {
+    text-align: center;   
+    font-size: 5rem;       
+    margin-top: 150px;      
+    color: black;
+    text-shadow: 
+        -2px -2px 0 gray,  
+         2px -2px 0  gray,
+        -2px  2px 0 gray,
+         2px  2px 0 gray; 
+}
+
+body.Contacto-page h1 {
+    text-align: center;   
+    font-size: 5rem;       
+    margin-top: 150px;      
+    color: black;
+    text-shadow: 
+        -2px -2px 0 gray,  
+         2px -2px 0  gray,
+        -2px  2px 0 gray,
+         2px  2px 0 gray; 
+}
+
+
+
+
+
+
+
+
+
+
+
+/* barra de navegacion de cada pagina */
 
 .navbar {
     display: flex;
@@ -67,4 +154,77 @@ h1 {
 
 main {
     padding-top: 70px; 
+}
+
+
+
+
+
+
+
+
+
+
+/* Contendor de noticias */
+
+.ContenedorGeneral {
+    display: flex; 
+    flex-wrap: wrap;             
+    justify-content: center;    
+    align-items: flex-start;    
+    gap: 70px;               
+    margin: 40px 0;            
+}
+
+
+.ContenedorN {
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+    
+    
+    background-color: rgba(0, 0, 0, 0.5); 
+    
+    border: 4px solid black; 
+    border-radius: 15px;        
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+
+
+    padding-left: 25px;      
+    padding-right: 25px;     
+    padding-top: 20px;
+    padding-bottom: 100px;
+    width: 280px     
+}
+
+/* La imagen dentro del contenedor */
+.ContenedorGeneral img {         
+    height: auto; 
+    max-width: 300px;         
+    border-radius: 10px;      
+}
+
+.ContenedorGeneral p {
+    color: #ffffff;
+    font-size: 0.75rem; 
+    text-align: center;
+    margin-top: 15px;
+    line-height: 1.4;
+    text-shadow: 2px 2px 0px #000;
+}
+
+
+
+
+
+/* Contendor de imaguen de mantenimiento */
+
+.mantenimiento
+{
+ text-align: center;
+ 
+}
+
+.mantenimiento img {
+  border-radius: 25px; 
 }
